@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: ee54d4a6a5ffe104b94bbfe6b1f921a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -737230099050073608
+    second: Little Robot Guy Spritesheet_0
+  - first:
+      213: 5714976095765133831
+    second: Little Robot Guy Spritesheet_1
+  - first:
+      213: -5766498303841609869
+    second: Little Robot Guy Spritesheet_2
+  - first:
+      213: -5549180888588383793
+    second: Little Robot Guy Spritesheet_3
+  - first:
+      213: -4327795412210152602
+    second: Little Robot Guy Spritesheet_4
+  - first:
+      213: -2098951644541573725
+    second: Little Robot Guy Spritesheet_5
+  - first:
+      213: 8417892765046639689
+    second: Little Robot Guy Spritesheet_6
+  - first:
+      213: 8540401188283189930
+    second: Little Robot Guy Spritesheet_7
+  - first:
+      213: -9125458843179688543
+    second: Little Robot Guy Spritesheet_8
+  - first:
+      213: 4705278774868173356
+    second: Little Robot Guy Spritesheet_9
+  - first:
+      213: 6628046454185069303
+    second: Little Robot Guy Spritesheet_10
+  - first:
+      213: -9191772684488971213
+    second: Little Robot Guy Spritesheet_11
+  - first:
+      213: -4060340613546480150
+    second: Little Robot Guy Spritesheet_12
+  - first:
+      213: 9050215798056721727
+    second: Little Robot Guy Spritesheet_13
+  - first:
+      213: 4159671086843230383
+    second: Little Robot Guy Spritesheet_14
+  - first:
+      213: -3223242695130467706
+    second: Little Robot Guy Spritesheet_15
+  - first:
+      213: -5524206256746571842
+    second: Little Robot Guy Spritesheet_16
+  - first:
+      213: -4501648456988462774
+    second: Little Robot Guy Spritesheet_17
+  - first:
+      213: 1380236252339715647
+    second: Little Robot Guy Spritesheet_18
+  - first:
+      213: 4085809100178658688
+    second: Little Robot Guy Spritesheet_19
+  - first:
+      213: -3224368088124919198
+    second: Little Robot Guy Spritesheet_20
+  - first:
+      213: 6032911136464628563
+    second: Little Robot Guy Spritesheet_21
+  - first:
+      213: 7213375444888813629
+    second: Little Robot Guy Spritesheet_22
+  - first:
+      213: -1464605628740186309
+    second: Little Robot Guy Spritesheet_23
+  - first:
+      213: -2905421404917043350
+    second: Little Robot Guy Spritesheet_24
+  - first:
+      213: -2805366408269168792
+    second: Little Robot Guy Spritesheet_25
+  - first:
+      213: 4102282910448208645
+    second: Little Robot Guy Spritesheet_26
+  - first:
+      213: 50612234323033625
+    second: Little Robot Guy Spritesheet_27
+  - first:
+      213: -4295456703486028691
+    second: Little Robot Guy Spritesheet_28
+  - first:
+      213: 8129568438381425623
+    second: Little Robot Guy Spritesheet_29
+  - first:
+      213: 5312656571104533952
+    second: Little Robot Guy Spritesheet_30
+  - first:
+      213: 1962971812282476453
+    second: Little Robot Guy Spritesheet_31
+  - first:
+      213: 1402379506326969492
+    second: Little Robot Guy Spritesheet_32
+  - first:
+      213: 5677288245848702036
+    second: Little Robot Guy Spritesheet_33
+  - first:
+      213: 6491878587576543787
+    second: Little Robot Guy Spritesheet_34
+  - first:
+      213: -3090168911802027856
+    second: Little Robot Guy Spritesheet_35
+  - first:
+      213: 8488804704073435655
+    second: Little Robot Guy Spritesheet_36
+  - first:
+      213: 5069107703894152081
+    second: Little Robot Guy Spritesheet_37
+  - first:
+      213: 540801560620997233
+    second: Little Robot Guy Spritesheet_38
+  - first:
+      213: -1378237939659360854
+    second: Little Robot Guy Spritesheet_39
+  - first:
+      213: 4534787032729858582
+    second: Little Robot Guy Spritesheet_40
+  - first:
+      213: -3910564347968117839
+    second: Little Robot Guy Spritesheet_41
+  - first:
+      213: -4894875252696577730
+    second: Little Robot Guy Spritesheet_42
+  - first:
+      213: 6127315583986452843
+    second: Little Robot Guy Spritesheet_43
+  - first:
+      213: 2048916704432659309
+    second: Little Robot Guy Spritesheet_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1f4648125d4c5f0800000000000000
+      internalID: -737230099050073608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70afde7da7caf4f40800000000000000
+      internalID: 5714976095765133831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377d0a9485849ffa0800000000000000
+      internalID: -5766498303841609869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc98d45f1695df2b0800000000000000
+      internalID: -5549180888588383793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b06a2900590f3c0800000000000000
+      internalID: -4327795412210152602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a06a99960fd2e0800000000000000
+      internalID: -2098951644541573725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c8fe1bedc52d470800000000000000
+      internalID: 8417892765046639689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa81fab1a9958670800000000000000
+      internalID: 8540401188283189930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1add3d7e78bdb5180800000000000000
+      internalID: -9125458843179688543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22e339bd128c4140800000000000000
+      internalID: 4705278774868173356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa0d78122d8bfb50800000000000000
+      internalID: 6628046454185069303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c65ec8173407080800000000000000
+      internalID: -9191772684488971213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed687e79b5c6a7c0800000000000000
+      internalID: -4060340613546480150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d9cc77153d89d70800000000000000
+      internalID: 9050215798056721727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8f0c980de1ab930800000000000000
+      internalID: 4159671086843230383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 375
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68230e3a8ddb443d0800000000000000
+      internalID: -3223242695130467706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb751a09da31653b0800000000000000
+      internalID: -5524206256746571842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a417481449ee681c0800000000000000
+      internalID: -4501648456988462774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e33d60f85972310800000000000000
+      internalID: 1380236252339715647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0851534aab5b3b830800000000000000
+      internalID: 4085809100178658688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262753aae4eb043d0800000000000000
+      internalID: -3224368088124919198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35be87207b439b350800000000000000
+      internalID: 6032911136464628563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d308f10cfbe0b1460800000000000000
+      internalID: 7213375444888813629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f47e2c0fcacabe0800000000000000
+      internalID: -1464605628740186309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f6a1530aedda7d0800000000000000
+      internalID: -2905421404917043350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f7d4a7d165119d0800000000000000
+      internalID: -2805366408269168792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bcb6d729c3ee830800000000000000
+      internalID: 4102282910448208645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91efc181f8fc3b000800000000000000
+      internalID: 50612234323033625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Robot Guy Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 238
+        width: 63
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6415a0f2e87364c0800000000000000
+      internalID: -4295456703486028691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
