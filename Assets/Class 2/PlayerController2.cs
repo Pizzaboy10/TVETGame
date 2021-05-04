@@ -18,16 +18,40 @@ public class PlayerController2 : MonoBehaviour
     public float attackCooldown = 0.25f;    //How long it takes between attacks.
     private float attackTime;               //Keeps track of the next safe time to attack.
 
-    public Animator anim;       //The animation controller (21, 26, 33)
+    public Animator anim;       //The animation controller
+
+    public GameObject attackPivot;
+    public Camera cam;
+
+    public int health = 3;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();   //Rigidbody reference
         anim = GetComponentInChildren<Animator>();  //The child that displays images
+        cam = Camera.main;
     }
 
     void Update()
     {
+        //Get the direction
+        var dir = Input.mousePosition - cam.WorldToScreenPoint(transform.position);
+
+        //Get the angle
+        var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
+        //Account for looking the other direction
+        if (!lookingRight)
+        {
+            angle += 180;
+        }
+
+        //Rotate the object
+        attackPivot.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+
+
+
         move = Input.GetAxis("Horizontal") * speed;     //Assign current speed
 
         anim.SetFloat("MoveSpeed", Mathf.Abs(move));    //The speed of the animations.
@@ -63,6 +87,14 @@ public class PlayerController2 : MonoBehaviour
             canJump = false;
         }
     }
+
+    private void LateUpdate()
+    {
+        cam.transform.position = transform.position + new Vector3(0, 1, -10);
+    }
+
+
+
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(move, rb.velocity.y); //Apply speed to player
@@ -70,12 +102,20 @@ public class PlayerController2 : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            health = health - 1;
+            if (health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+
         Vector3 jumpCheck = transform.position + Vector3.down;  //Gets point below player
 
         if (Physics2D.OverlapPoint(jumpCheck))
         {
             canJump = true;
         }
-
     }
 }
