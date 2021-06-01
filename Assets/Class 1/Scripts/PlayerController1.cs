@@ -2,8 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController1 : MonoBehaviour
 {
+    /// <summary>
+    /// TODO: ADD HEALTH AND TAKE DAMAGE ON CONTACT WITH ENEMY
+    /// </summary>
+    public int health = 3;
+    float lastTimeHit = 0.0f;
+
     private Rigidbody2D rb;                     //Rigidbody for physics.
 
     public float speed = 10;                    //Speed multiplier
@@ -20,23 +26,42 @@ public class PlayerController : MonoBehaviour
 
     public Animator anim;
 
+    public GameObject pivotPoint;
+    public Camera cam;
+
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        cam = Camera.main;
     }
 
     void Update()
     {
+        //get the mouse position.
+        var dir = Input.mousePosition - cam.WorldToScreenPoint(transform.position);
+
+        //Get the angle from the position
+        var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
+        //rotate the pivot
+        pivotPoint.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+
+
         move = Input.GetAxis("Horizontal") * speed;
         anim.SetFloat("Movement", Mathf.Abs(move));     //Makes reversing not negative
         if(move > 0)
         {
             transform.localScale = Vector3.one;
+            pivotPoint.transform.localScale = Vector3.one;
         }
         if (move < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
+            pivotPoint.transform.localScale = new Vector3(-1, 1, 1);
         }
         if (Input.GetButtonDown("Jump") && canJump)
         {
@@ -57,7 +82,8 @@ public class PlayerController : MonoBehaviour
             attackZone.SetActive(false);
         }
 
-
+        Vector3 offset = new Vector3(0, 1, -10);
+        cam.transform.position = transform.position + offset;
     }
 
     private void FixedUpdate()
@@ -75,6 +101,36 @@ public class PlayerController : MonoBehaviour
         if (Physics2D.OverlapPoint(jumpCheck))      //Check point
         {
             canJump = true;             //If something there, can jump
+        }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            if(Time.time < lastTimeHit + 1.0f) 
+            {
+                return;
+            }
+            lastTimeHit = Time.time;
+
+            health--;
+
+            FindObjectOfType<GameManager1>().HealthChange(health);
+            
+            if (health <= 0)
+            {
+                rb.freezeRotation = false;
+                rb.AddTorque(10);
+                anim.enabled = false;
+                enabled = false;
+            }
+        }
+
+
+        else if (collision.gameObject.tag == "Health")
+        {
+            health++;
+            FindObjectOfType<GameManager1>().HealthChange(health);
+
+            Destroy(collision.gameObject);
+
         }
     }
 

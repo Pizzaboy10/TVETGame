@@ -34,6 +34,9 @@ public class PlayerController2 : MonoBehaviour
 
     void Update()
     {
+        cam.transform.position = transform.position + Vector3.back * 10;
+
+
         //Get the direction
         var dir = Input.mousePosition - cam.WorldToScreenPoint(transform.position);
 
@@ -105,10 +108,17 @@ public class PlayerController2 : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             health = health - 1;
+            FindObjectOfType<GameManager2>().HealthChange(health);
             if (health <= 0)
             {
                 Destroy(gameObject);
             }
+        }
+        else if (collision.gameObject.tag == "Health")
+        {
+            health++;
+            FindObjectOfType<GameManager2>().HealthChange(health);
+            Destroy(collision.gameObject);
         }
 
         Vector3 jumpCheck = transform.position + Vector3.down;  //Gets point below player

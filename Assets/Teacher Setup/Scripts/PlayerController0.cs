@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController0 : MonoBehaviour
 {
+    GameManager0 manager;               
+
     public int health = 3;
-    
+    float lastHitTime = 0.0f;
+    public float iFrames = 0.5f;
+
     public float speed = 10;
     public float jumpForce = 100;
     private float move = 0;
@@ -13,11 +17,11 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private bool lookRight = true;
 
-    public GameObject attackPivot;                                  //Point that the attack zone goes around
+    public GameObject attackPivot;          //Point that the attack zone goes around
     public GameObject attackZone;
-    public float attackDuration = 0.15f;                            //How long the attack hurtbox lasts
-    public float attackCooldown = 0.25f;                            //How much time you need to wait between attacks
-    private float attackTime = 0f;                                  //When the attack hurtbox dissapears
+    public float attackDuration = 0.15f;    //How long the attack hurtbox lasts
+    public float attackCooldown = 0.25f;    //How much time you need to wait between attacks
+    private float attackTime = 0f;          //When the attack hurtbox dissapears
 
     public Camera cam;
 
@@ -25,8 +29,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();                           //Rigidbody reference
+        rb = GetComponent<Rigidbody2D>();   //Rigidbody reference
         cam = Camera.main;
+        manager = FindObjectOfType<GameManager0>();
     }
 
     void Update()
@@ -48,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Attack()
     {
-        //Get the direction
+        //Get the Mouse position
         var dir = Input.mousePosition - cam.WorldToScreenPoint(transform.position);
         
         //Get the angle
@@ -67,7 +72,6 @@ public class PlayerMovement : MonoBehaviour
         {
             attackZone.SetActive(true);                             //Enable hurtbox
             attackTime = Time.time + attackDuration;                //Set a duration
-            Debug.Log(angle);
         }
         if (Time.time > attackTime)
         {
@@ -115,11 +119,32 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.gameObject.tag == "Enemy")
         {
-            health--;
-            if(health <= 0)
+            if (Time.time > lastHitTime + iFrames)
             {
-                Destroy(gameObject);
+                health--;
+                manager.HealthChange(health);
+                if (health <= 0)
+                {
+                    Destroy(gameObject);
+                }
             }
+            lastHitTime = Time.time;
+        }       
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 7)
+        {
+            health++;
+            manager.HealthChange(health);
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.layer == 8)
+        {
+            manager.GetCoin();
+            Destroy(collision.gameObject);
         }
     }
+
 }

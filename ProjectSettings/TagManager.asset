@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Enemy2
+  - Health
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Health
+  - Coin
   - 
   - 
   - 
